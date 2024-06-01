@@ -38,7 +38,8 @@ public class PostController {
 
 
     @PreAuthorize("hasRole('ADMIN')")
-    @DeleteMapping("/{id}")
+    @DeleteMapping("/id")
+
     public ResponseEntity<String> deletePostById(@PathVariable long id){
         postService.deletePostById(id);
         return new ResponseEntity<>("Post is deleted",HttpStatus.OK);
