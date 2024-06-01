@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.myblog8</groupId>
 	<artifactId>myblog</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.4-SNAPSHOT</version>
 	<name>myblog</name>
 	<description>myblog</description>
 	<properties>
